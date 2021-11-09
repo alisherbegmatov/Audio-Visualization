@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+  <title>Audio Visualizer</title>
+  <style>
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #000000;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  #buttonWrapper {
+    display: 'flex';
+  }
+  </style>
+</head>
+<body>
+  
+  <canvas id="canvas" width="1500" height="1000"></canvas>
+  
+  <div id="buttonWrapper">
+    <button id="button-play">PLAY</button>
+    <button id="button-pause">STOP</button>
+  </div>
+  
+  <script src="main.js" type="module"></script>
+</body>
+</html>
