@@ -1,6 +1,6 @@
 function render (frequencyArray, ctx, width, height) {
   ctx.fillStyle = 'rgba(255, 255, 255, 0.1)'
-  ctx.fillRect(0, 0, width*1.1, height*2)
+  ctx.fillRect(0, 0, width*1.2, height*2)
   ctx.fill()
 
   const bars = frequencyArray.length
